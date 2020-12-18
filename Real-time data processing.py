@@ -2,8 +2,8 @@
 # This program receives as input a stream of real-time data in the form of waste collection points
 # coordinates and percentage of fullness, as well as the type of reclycling material corresponding to each of these bins
 # 
-# It then considers clusters of such bins to suggest the most optimal placement of new bins and their material type, in order to
-# avoid overflow. 
+# It then stores this data in a queue and considers clusters of such bins to suggest the most optimal placement of new bins 
+# and their material type, in order to avoid overflow. 
 #
 # The program makes use of techniques such as OOP programming and multi-threading (threads for data collection, periodic statistics 
 # computation and on-demand placement suggestions).
